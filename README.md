@@ -155,12 +155,11 @@ Per-application profiles switch with the focused app. An `[apps]` alias lets one
 
 Feature coverage depends on what each device reports; the app shows only the controls a device supports.
 
-### Appearance
+### Acrylic Glass
 
 <table>
     <tr>
-        <td width="50%"><img src="docs/images/acrylic-glass-on.png" width="400" alt="OpenLogi on macOS with Acrylic Glass enabled"></td>
-        <td width="50%"><b>Acrylic Glass (macOS)</b><ul><li>Enable translucent window backgrounds and popup containers in Settings → Appearance → Window.</li><li>Adjust opacity from 0% to 100%, with 75% as the default.</li><li>Keep the original cards, controls, and color themes.</li><li>Glass is off by default and respects Reduce Transparency and Increase Contrast.</li></ul></td>
+        <td colspan="2"><img src="docs/images/acrylic-glass-settings.png" width="820" alt="Window settings on macOS with Acrylic Glass enabled and Glass opacity at 75%"><br><b>Acrylic Glass (macOS)</b><ul><li>Enable translucent window backgrounds and popup containers in Settings → Appearance → Window.</li><li>Adjust opacity from 0% to 100%, with 75% as the default.</li><li>Keep the original cards, controls, and color themes.</li><li>Glass is off by default and respects Reduce Transparency and Increase Contrast.</li></ul></td>
     </tr>
 </table>
 
