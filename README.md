@@ -79,6 +79,13 @@ Things OpenLogi does that Options+ won't:
 
 ## Features
 
+On macOS, Settings → Appearance includes **Acrylic Glass** and a **Glass opacity** slider.
+Glass applies to window backgrounds and popup containers. The material also extends behind the native window controls.
+Cards, controls, panel borders, and theme colors keep their original design.
+The option is off by default. Opacity ranges from 0% to 100% and defaults to 75%.
+Reduce Transparency and Increase Contrast keep the interface solid.
+All color themes remain available. Linux keeps solid surfaces because blur support depends on the compositor; the current X11 backend cannot request blur.
+
 <p align="center">
     <img src="https://assets.openlogi.org/screenshots/macos/light/devices-grid.png" width="860" alt="OpenLogi device list with six Logitech devices: mice, a keyboard, and a Litra light">
 </p>
