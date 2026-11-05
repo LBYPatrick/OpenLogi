@@ -79,13 +79,6 @@ Things OpenLogi does that Options+ won't:
 
 ## Features
 
-On macOS, Settings → Appearance includes **Acrylic Glass** and a **Glass opacity** slider.
-Glass applies to window backgrounds and popup containers. The material also extends behind the native window controls.
-Cards, controls, panel borders, and theme colors keep their original design.
-The option is off by default. Opacity ranges from 0% to 100% and defaults to 75%.
-Reduce Transparency and Increase Contrast keep the interface solid.
-All color themes remain available. Linux keeps solid surfaces because blur support depends on the compositor; the current X11 backend cannot request blur.
-
 <p align="center">
     <img src="https://assets.openlogi.org/screenshots/macos/light/devices-grid.png" width="860" alt="OpenLogi device list with six Logitech devices: mice, a keyboard, and a Litra light">
 </p>
@@ -161,6 +154,15 @@ Per-application profiles switch with the focused app. An `[apps]` alias lets one
 - Built-in Default / Streaming / Video call profiles plus your own snapshots, kept per camera
 
 Feature coverage depends on what each device reports; the app shows only the controls a device supports.
+
+### Appearance
+
+<table>
+    <tr>
+        <td width="50%"><img src="docs/images/acrylic-glass-on.png" width="400" alt="OpenLogi on macOS with Acrylic Glass enabled"></td>
+        <td width="50%"><b>Acrylic Glass (macOS)</b><ul><li>Enable translucent window backgrounds and popup containers in Settings → Appearance → Window.</li><li>Adjust opacity from 0% to 100%, with 75% as the default.</li><li>Keep the original cards, controls, and color themes.</li><li>Glass is off by default and respects Reduce Transparency and Increase Contrast.</li></ul></td>
+    </tr>
+</table>
 
 ### Platform support
 
